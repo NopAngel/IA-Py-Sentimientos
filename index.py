@@ -1,6 +1,5 @@
 import openai
 
-
 openai.api_key = "" # <--- colocar KEY de OpenAI.
 initialPrompt = """hace de cuenta que sos un analizador de sentimientos. yo te paso sentimientos y vos analizas
                    el sentimiento de los mensaje y me das una respuesta con al menos 1 caracter y un máximo de 4 caracteres
